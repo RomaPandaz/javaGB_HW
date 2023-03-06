@@ -15,7 +15,6 @@ public class Main {
         int[] result = mergeSortInner(temp1, temp2, 0, sortArr.length);
         return result;
     }
-
     public static int[] mergeSortInner(int[] temp1, int[] temp2, int startIndex, int endIndex) {
         if (startIndex >= endIndex - 1) {
             return temp1;
